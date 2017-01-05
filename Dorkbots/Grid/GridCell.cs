@@ -44,9 +44,9 @@ namespace Dorkbots.Grid
         private IGrid _grid;
         public IGrid grid{ get{return _grid;} }
         private int _type = 0;
-        public int type{ get{ return _type; } set{ _type = value; OnTypeChangedEvent(EventArgs.Empty); } }
+        public int type{ get{ return _type; } }
         private int _state = 0;
-        public int state{ get{ return _state; } set{ _state = value; OnStateChangedEvent(EventArgs.Empty); } }
+        public int state{ get{ return _state; } }
 
         public GridCell(uint x, uint y, IGrid grid)
         {
@@ -57,9 +57,27 @@ namespace Dorkbots.Grid
 
         public void Copy(IGridCell gridCell)
         {
-            gridCell.type = this._type;
-            gridCell.state = this._state;
+			gridCell.ChangeType(this._type);
+			gridCell.ChangeState(this._state);
         }
+
+		public void ChangeType(int newType, bool sendEvent = true)
+		{
+			if (_type != newType)
+			{
+				_type = newType;
+				if (sendEvent) OnTypeChangedEvent(EventArgs.Empty);
+			}
+		}
+
+		public void ChangeState(int newState, bool sendEvent = true)
+		{
+			if (_state != newState)
+			{
+				_state = newState;
+				if (sendEvent) OnStateChangedEvent(EventArgs.Empty);
+			}
+		}
 
         public void SendMessage(string message)
         {

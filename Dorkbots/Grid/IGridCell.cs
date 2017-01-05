@@ -42,13 +42,22 @@ namespace Dorkbots.Grid
         /// <summary>
         /// "type' is intended to be a non changing value. Use "state" for a value that changes.
         /// </summary>
-        int type{ get; set; }
+        int type{ get; }
         /// <summary>
         /// Use "state" for values that need to change.
         /// </summary>
-        int state{ get; set; }
+        int state{ get; }
 
         void Copy(IGridCell gridCell);
+
+		/// <summary>
+		/// "type' is intended to be a non changing value. Use "state" for a value that changes.
+		/// </summary>
+		void ChangeType (int newType, bool sendEvent = true);
+		/// <summary>
+		/// Use "state" for values that need to change.
+		/// </summary>
+		void ChangeState (int newState, bool sendEvent = true);
 
         void SendMessage(string message);
 
