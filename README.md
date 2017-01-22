@@ -20,11 +20,11 @@ Example -
 There is an example project, the example uses the WorldGrid framework and the Dorkbots Broadcasters.
 
 Look at this file -<br>
-https://github.com/dorkbot/Dorkbots-Grid/blob/master/Example/Assets/Scripts/Game/Controller.cs
+https://github.com/dorkbot/Dorkbots-Grid/blob/master/Example/Assets/Scripts/Game/Controller.cs<br>
 Look at the Start method, there you will see the Grid being set up. You will also find an example of the Dorkbots Broadcasters being used. The Update method shows how the Moving Entities are updated. And the Event Handler PlayerMovedEvent method shows how to find entities that are within a certain distance and then starting interactions with those entities.
 
 Look at this file -<br>
-https://github.com/dorkbot/Dorkbots-Grid/blob/master/Example/Assets/Scenes/Game.unity
+https://github.com/dorkbot/Dorkbots-Grid/blob/master/Example/Assets/Scenes/Game.unity<br>
 In this scene notice how all of the entities are placed in one Parent Game Object called "World". Look at the Game Objects "NPC", "Player", "Sphere" and "Hangar/DoorPanel", check out their attached Scripts, they all have to have a "GridCellEntity" Script attached so they can be added to the grid. They also have game specific scripts that attach event handlers to the GridCellEntity Scripts.
 
 You can find the Dorkbots Broadcaster framework here -<br> http://dorkbots.com/repositories/broadcasters/index.html
