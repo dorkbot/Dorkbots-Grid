@@ -52,7 +52,6 @@
      <Compile Include="Assets\Standard Assets\Effects\Common\Editor\FieldFinder.cs" />
      <Compile Include="Assets\Standard Assets\Effects\Common\Editor\MinDrawer.cs" />
      <Compile Include="Assets\Standard Assets\Effects\LensAberrations\Editor\LensAberrationsEditor.cs" />
-     <None Include="Assets\AssetResources\EffectExamples\Shared\Shaders\SurfaceShader_VC.shader" />
      <None Include="Assets\Standard Assets\Effects\Bloom\Resources\Bloom.shader" />
      <None Include="Assets\Sprites\BasicUI Metal\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
      <None Include="Assets\Standard Assets\Effects\Bloom\Resources\Bloom.cginc" />

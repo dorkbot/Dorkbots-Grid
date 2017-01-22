@@ -51,7 +51,6 @@
      <Compile Include="Assets\Standard Assets\Effects\Common\MinAttribute.cs" />
      <Compile Include="Assets\Standard Assets\Effects\Common\RenderTextureUtility.cs" />
      <Compile Include="Assets\Standard Assets\Effects\LensAberrations\LensAberrations.cs" />
-     <None Include="Assets\AssetResources\EffectExamples\Shared\Shaders\SurfaceShader_VC.shader" />
      <None Include="Assets\Standard Assets\Effects\Bloom\Resources\Bloom.shader" />
      <None Include="Assets\Sprites\BasicUI Metal\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
      <None Include="Assets\Standard Assets\Effects\Bloom\Resources\Bloom.cginc" />

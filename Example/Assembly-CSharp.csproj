@@ -46,11 +46,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\AssetResources\EffectExamples\Shared\Scripts\DecalDestroyer.cs" />
-     <Compile Include="Assets\AssetResources\EffectExamples\Shared\Scripts\GunAim.cs" />
-     <Compile Include="Assets\AssetResources\EffectExamples\Shared\Scripts\GunShoot.cs" />
-     <Compile Include="Assets\AssetResources\EffectExamples\Shared\Scripts\ParticleExamples.cs" />
-     <Compile Include="Assets\AssetResources\EffectExamples\Shared\Scripts\ParticleMenu.cs" />
      <Compile Include="Assets\Scripts\Game\Controller.cs" />
      <Compile Include="Assets\Scripts\Game\DoorAccessPanel.cs" />
      <Compile Include="Assets\Scripts\Game\EntityNames.cs" />
@@ -87,7 +82,6 @@
      <Compile Include="Assets\Scripts\Util\Dorkbots\WorldGrid\WorldGridCell.cs" />
      <Compile Include="Assets\Scripts\Util\Dorkbots\WorldGrid\WorldGridCellFactory.cs" />
      <Compile Include="Assets\Scripts\Util\Dorkbots\WorldGrid\WorldGridManager.cs" />
-     <None Include="Assets\AssetResources\EffectExamples\Shared\Shaders\SurfaceShader_VC.shader" />
      <None Include="Assets\Standard Assets\Effects\Bloom\Resources\Bloom.shader" />
      <None Include="Assets\Sprites\BasicUI Metal\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
      <None Include="Assets\Standard Assets\Effects\Bloom\Resources\Bloom.cginc" />
